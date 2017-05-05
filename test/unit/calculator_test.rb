@@ -2,10 +2,10 @@ require 'test_helper'
 
 class CalculatorTest < ActiveSupport::TestCase
   test "should get the right distance between two coords" do
-    coord1 = {x: 9.0, y: 4.5}
-    coord2 = {x: 4.0, y: 3.0}
+    coord1 = {x: 9, y: 4}
+    coord2 = {x: 4, y: 3}
     distance = Calculator.distance(coord1, coord2)
-    assert_equal(distance, 5.22015)
+    assert_equal(distance, 5.09902)
   end
 
   test "list pois by proximity" do

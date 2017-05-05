@@ -5,12 +5,11 @@ class PoisController < ApplicationController
   end
 
   def create 
-    poi = Poi.new(@params)
-    puts @params
+    poi = Poi.new(poi_params)
     if poi.save()
-      render json: poi      
+      return render json: poi      
     end
-    render json: poi.errors
+    return render json: poi.errors
   end
 
   def poi_params

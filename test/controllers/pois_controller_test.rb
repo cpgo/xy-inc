@@ -1,8 +1,9 @@
 require 'test_helper'
 
 class PoisControllerTest < ActionDispatch::IntegrationTest
-  test "index response is ok" do
-    get "/"
+  test "index lists all pois" do
+    get "/pois"
+    assert(JSON.parse(@response.body).count, 6)
     assert_equal(@response.content_type, "application/json")
   end
 

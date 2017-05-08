@@ -36,4 +36,4 @@ Listar Points of Interest a uma certa distancia das coordenadas fornecidas
 GET '/near', params: coords[x], coords[y], coords[max]
 ```
 
-[`Exemplo do app rodando no heroku`](`https://quiet-citadel-82458.herokuapp.com/poi`)
+[`Exemplo do app rodando no heroku`](https://quiet-citadel-82458.herokuapp.com/poi)

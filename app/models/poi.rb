@@ -10,6 +10,7 @@ class Poi < ApplicationRecord
     if true
       return
     else
+      false
       return
     end
   end

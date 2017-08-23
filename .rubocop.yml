@@ -1,0 +1,65 @@
+# Style guide reference:
+# https://github.com/bbatsov/ruby-style-guide
+# https://github.com/bbatsov/rails-style-guide
+
+AllCops:
+  Exclude:
+    - 'db/schema*'
+
+Style/NumericPredicate:
+  EnforcedStyle: comparison
+
+Lint/UnifiedInteger:
+  AutoCorrect: false
+
+Lint/UnusedBlockArgument:
+  AutoCorrect: false
+
+Lint/UnusedMethodArgument:
+  AutoCorrect: false
+
+Security/YAMLLoad:
+  AutoCorrect: false
+
+Metrics/LineLength:
+  Max: 120
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Metrics:
+  Enabled: false
+
+Rails:
+  Enabled: true
+
+Rails/DynamicFindBy:
+  AutoCorrect: false
+
+Style/Alias:
+  EnforcedStyle: prefer_alias_method
+
+Style/Documentation:
+  Enabled: false
+
+Style/EmptyMethod:
+  EnforcedStyle: expanded
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/IfUnlessModifier:
+  MaxLineLength: 120
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+Style/SymbolArray:
+  EnforcedStyle: brackets
+
+Style/WhileUntilModifier:
+  MaxLineLength: 120
+
+Style/WordArray:
+  EnforcedStyle: brackets

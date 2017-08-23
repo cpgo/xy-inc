@@ -1,0 +1,6 @@
+all:
+  exclude:
+    - 'spec/**/*'
+max_warnings: 150
+verbose: true
+format: "%{runner} %{level} %{msg}"

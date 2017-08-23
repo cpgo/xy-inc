@@ -1,10 +1,6 @@
 all:
   exclude:
     - 'spec/**/*'
-github:
-  api_endpoint: https://api.github.com/
-  web_endpoint: https://github.com/
-max_warnings: 150
 verbose: true
 github_pr:
   format: "%{runner} - %{msg}"

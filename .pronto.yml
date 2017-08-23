@@ -3,5 +3,4 @@ all:
     - 'spec/**/*'
 max_warnings: 150
 verbose: true
-github_pr:
-  format: "%{runner} - %{msg}"
+format: "%{runner} %{level} %{msg}"

@@ -63,3 +63,6 @@ Style/WhileUntilModifier:
 
 Style/WordArray:
   EnforcedStyle: brackets
+
+Layout/SpaceBeforeComma:
+  Enabled: true

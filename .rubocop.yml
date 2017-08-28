@@ -23,7 +23,6 @@ Security/YAMLLoad:
 
 Metrics/LineLength:
   Max: 120
-  Enabled: false
 
 Style/ClassAndModuleChildren:
   Enabled: false

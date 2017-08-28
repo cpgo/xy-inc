@@ -28,9 +28,6 @@ Metrics/LineLength:
 Style/ClassAndModuleChildren:
   Enabled: false
 
-Metrics:
-  Enabled: false
-
 Rails:
   Enabled: true
 

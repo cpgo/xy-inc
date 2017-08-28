@@ -4,6 +4,6 @@ class Poi < ApplicationRecord
   validates :y, presence: true, numericality: { only_integer: true , greater_than: 0}
 
   def coords
-    {x: x, y: y}
+    { x: x, y: y }
   end
 end

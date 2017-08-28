@@ -4,5 +4,6 @@ class Printer
 
   def base_printer
     "printer"
+  
   end
 end

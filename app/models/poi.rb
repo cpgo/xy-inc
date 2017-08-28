@@ -6,4 +6,5 @@ class Poi < ApplicationRecord
   def coords
     { x: x, y: y }
   end
+  
 end

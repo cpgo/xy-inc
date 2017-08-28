@@ -23,12 +23,8 @@ Security/YAMLLoad:
 
 Metrics/LineLength:
   Max: 120
-  Enabled: false
 
 Style/ClassAndModuleChildren:
-  Enabled: false
-
-Metrics:
   Enabled: false
 
 Rails:

@@ -10,4 +10,5 @@ module Calculator
     near = distances.reject { |e| e[:distance] > max}
     near.map { |e| {id: e[:id], name: e[:name]} }
   end
+  
 end

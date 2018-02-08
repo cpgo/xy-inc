@@ -7,7 +7,9 @@ pipeline {
             }
         }
         stage('test') {
-          sh 'rake test'
+          steps {
+            sh 'rake test'
+          }
         }
     }
 }

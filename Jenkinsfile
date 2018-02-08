@@ -7,7 +7,7 @@ pipeline {
             }
         }
         stage('test') {
-          rake test
+          sh 'rake test'
         }
     }
 }

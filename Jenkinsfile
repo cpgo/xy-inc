@@ -3,7 +3,7 @@
 /* Only execute on a node with the 'docker' label, which I use to indicate a
  * running and accessible Docker daemon
  */
-node('docker') {
+node {
     /* checkout our source tree at the revision that triggered this pipeline */
     checkout scm
 
